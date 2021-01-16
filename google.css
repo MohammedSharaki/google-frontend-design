@@ -1,0 +1,54 @@
+body{
+    direction: ltr;
+}
+.all{
+    margin-bottom: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin: 50px auto;
+    width: 400px;
+}
+input{
+    margin-top: 40px;
+    display: block;
+    width: 500px;
+    height: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    border: black 1px solid;
+}
+#input{
+    background-image:url(search.png), url(microphone160.png);
+    background-repeat:no-repeat,no-repeat;
+   background-position:right,left;
+    padding-right:15px ;
+
+}
+.button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.button .left{
+    background-color: rgb(228, 224, 224);
+    border: white solid 1px;
+    display: inline;
+    float: left;
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+}
+.button .right{
+    background-color: rgb(228, 224, 224);
+    border: white solid 1px;
+    display: inline;
+    float: right;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+h1{
+    color:red
+}
